@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Minimize Cash Flow</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="h1_text">
+                Minimize Cash Flow
+            </h1>
+            <div class="in">
+                <img class="in_i" src="./teamwork.svg">
+            </div>
+            
+        </div>
+
+        <div class="content">
+            <div id="que" class="que">
+                <h2 class="h2_text">
+                    How many people you are?
+                </h2>
+                <input type="text" id="numberBox" class="numberBox" placeholder="Enter total number of people" required>
+                <button onclick="fetchN()" class="btn">Next &rarr;</button>
+            </div>
+            <div id="box2" class="box2">
+                <h2 id="h2_text" class="h2_text">
+                    Enter name & total money
+                </h2>
+                <div class="fillarea">
+                    <div id="b1" class="b1">
+                        <input type="text" id="nameBox1" class="nameBox" placeholder="Name" required>
+                        <input type="number" id="nBox1" class="nBox" placeholder="Money" required>
+                    </div>
+                    <div id="b2" class="b2">
+                        <input type="text" id="nameBox2" class="nameBox" placeholder="Name" required>
+                        <input type="number" id="nBox2" class="nBox" placeholder="Money" required>
+                    </div>
+                    <div id="b3" class="b3">
+                        <input type="text" id="nameBox3" class="nameBox" placeholder="Name" required>
+                        <input type="number" id="nBox3" class="nBox" placeholder="Money" required>
+                    </div>
+                    <div id="b4" class="b4">
+                        <input type="text" id="nameBox4" class="nameBox" placeholder="Name" required>
+                        <input type="number" id="nBox4" class="nBox" placeholder="Money" required>
+                    </div>
+                    <div id="b5" class="b5">
+                        <input type="text" id="nameBox5" class="nameBox" placeholder="Name" required>
+                        <input type="number" id="nBox5" class="nBox" placeholder="Money" required>
+                    </div>
+                </div>
+                <button onclick="calData()" class="btn">Next &rarr;</button>
+            </div>
+            <div id="ans" class="ans">
+                
+            </div>
+        </div>
+    </div>
+    <script src="./index.js" type="text/javascript"></script>
+</body>
+</html>
